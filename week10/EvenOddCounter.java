@@ -4,7 +4,6 @@ public class EvenOddCounter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input looks like: [3, 8, 12, 5, 7, 10]
         String line = sc.nextLine().trim();
         line = line.replace("[", "").replace("]", "");
         String[] parts = line.split(",");

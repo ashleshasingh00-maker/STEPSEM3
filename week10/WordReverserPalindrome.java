@@ -4,7 +4,6 @@ public class WordReverserPalindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Reads every word given (one per line) until input ends
         while (sc.hasNext()) {
             String word = sc.next();
 
